@@ -43,7 +43,7 @@ def main():
 
     else:
         print('Error: Wrong usage')
-        print('Example: python3 {} "{}" "{}"'.format(sys.argv[0], 'http:://<api_ip>:<api_port>', '<data_to_predict>.csv'))
+        print('Example: python3 {} "{}" "{}"'.format(sys.argv[0], 'http:://localhost:5001', '<data_to_predict>.csv'))
 
 
 if __name__ == "__main__":
